@@ -37,6 +37,7 @@ app.use(customMware.setFlash);
 app.use('/', require('./route/index'));
 app.listen(port, function (error) {
     if (error) {
+    
         console.log("Error in running Server");
     }
     console.log("Server is running");
